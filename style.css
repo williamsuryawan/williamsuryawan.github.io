@@ -1,0 +1,200 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .header {
+    padding: 14px;
+    overflow: hidden;
+    background-image: url("./assets/SBMh.gif");
+    height: 80px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    font-family: 'Arial', serif;
+  }
+  
+  .navbar {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .title strong {
+    font-size: 43px;
+  }
+  
+  #title {
+    font-family: 'Arial', serif;
+    font-size: 36px;
+    color: red;
+    background-color: blue
+    padding: 0 16px;
+    float: left;
+    display: block;
+  }
+  
+  /* Style dari navbar */
+  .navbar>a {
+    float: right;
+    display: block;
+    color: red;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: 900;
+  }
+  
+  /* Ubah Warna pada NavBar */
+  .navbar>a:hover {
+    background-color: greenyellow;
+    color: black;
+  }
+  
+  /* Banner Utama */
+  .banner {
+    font-family: 'Book Antiqua', serif;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin: 30px auto;
+    padding-top: 2px;
+  }
+  
+  #img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.43), rgba(0, 0, 0, 0.43)), url("./assets/watch_xmas.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 640px;
+
+  }
+  #img_men {
+    background-image: url("./assets/Watch_Men_Banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 640px;
+  }
+
+  #img_women {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.43), rgba(0, 0, 0, 0.43)), url("./assets/Watch_women_Banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 640px;
+  }
+  .caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 23px;
+  }
+  
+  .caption h2 {
+    text-transform: uppercase;
+    line-height: 52px;
+    font-weight: 600;
+    font-size: 35px;
+  }
+  
+  .caption p {
+    font-size: 23.3px;
+  }
+
+  /* Section Sub-Banner */
+  section {
+    text-align: center;
+    margin: 28px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    line-height: 30.2px;
+  }
+  
+  section>li {
+    flex: 0 50%;
+    box-sizing: border-box;
+    padding: 14px;
+    font-family: 'Karla', sans-serif;
+    text-align: center;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  #Watch_Men {
+    height: 300px;
+    width: 250px;
+    margin: 10px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 50%;
+  }
+  
+  #Watch_Men2 {
+    height: 300px;
+    width: 290px;
+    margin: 10px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 50%;
+  }
+  #Watch_info {
+    text-align: center;
+    padding-top: 0;
+  }
+  .img_wmen {
+    display: inline-flex;
+  }
+
+ 
+  .footer {
+    padding: 13px;
+    font-weight: 400;
+    display: block;
+    font-family: 'Karla', sans-serif;
+    font-size: 17px;
+    background: blue;
+    background: -webkit-linear-gradient(to right, BLUE, LIGHTBLUE);
+    background: linear-gradient(to right, BLUE, LIGHTBLUE);
+  }
+
+  .footer>li {
+    flex: 1 1 auto;
+    text-align: left;
+    margin: 10px 60px;
+  }
+  
+  #li1 {
+    padding: 4px;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  li>p {
+    padding: 10%;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: justify;
+  }
+  
+  #li2 {
+    line-height: 22px;
+    padding: 4px;
+  }
+  
+  #regina {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 22px;
+  }
+
+
+ 
