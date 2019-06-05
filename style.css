@@ -4,11 +4,16 @@
     box-sizing: border-box;
   }
   
+  .headeratas{
+    background-color: red;
+    height: 100 px;
+    text-align: center;
+  }
   .header {
     padding: 14px;
     overflow: hidden;
     background-image: url("./assets/SBMh.gif");
-    height: 80px;
+    height: 70px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -22,17 +27,25 @@
   }
   
   .title strong {
-    font-size: 43px;
+    font-size: 40px;
   }
   
   #title {
+<<<<<<< HEAD
     font-family: 'Arial', serif;
     font-size: 36px;
     color: red;
     background-color: blue
+=======
+    font-family: 'Karla', sans-serif;
+    font-size: 24px;
+    color: white;
+    /* background-color: blue; */
+>>>>>>> update website
     padding: 0 16px;
     float: left;
     display: block;
+    text-align: center;
   }
   
   /* Style dari navbar */
@@ -59,7 +72,7 @@
     width: 100%;
     text-align: center;
     color: white;
-    margin: 30px auto;
+    /*margin: 30px auto;*/
     padding-top: 2px;
   }
   
@@ -159,14 +172,16 @@
     display: block;
     font-family: 'Karla', sans-serif;
     font-size: 17px;
-    background: blue;
-    background: -webkit-linear-gradient(to right, BLUE, LIGHTBLUE);
-    background: linear-gradient(to right, BLUE, LIGHTBLUE);
+    color: white;
+    /* text-align: center; */
+    background:  #0066ff    ;
+    /* background: -webkit-linear-gradient(to right, BLUE, LIGHTBLUE);
+    background: linear-gradient(to right, BLUE, LIGHTBLUE); */
   }
 
   .footer>li {
     flex: 1 1 auto;
-    text-align: left;
+    text-align: center;
     margin: 10px 60px;
   }
   
